@@ -41,3 +41,6 @@ Possible Errors:
 
 - InvalidPathError: This is thrown when either of the path arguments do not point to a dir or a file.
 
+To run the test suite just run:
+
+```rspec spec/```
