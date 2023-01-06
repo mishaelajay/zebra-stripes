@@ -8,6 +8,10 @@ Clone the repository on your local:
 
     git@github.com:mishaelajay/zebra-stripes.git
 
+Create a file called master.key and pasted the master key in it.
+
+```touch master.key```
+
 Navigate to the `zebra-stripes` folder and run bundler.
 
     bundle install
@@ -44,3 +48,4 @@ Possible Errors:
 To run the test suite just run:
 
 ```rspec spec/```
+s
