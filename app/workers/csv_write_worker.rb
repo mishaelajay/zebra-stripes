@@ -14,6 +14,7 @@ class CsvWriteWorker
       cws.push_batch(parsed_batch)
     end
     csv_cache.flushdb
+    puts "\a \a"
   end
 
   private

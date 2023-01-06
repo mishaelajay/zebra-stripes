@@ -15,17 +15,17 @@ class CustomersFetcher
     [customers, has_more]
   end
 
-  def list_customers(limit: 50, starting_after:)
-    params = {limit: limit}
-    params[:starting_after] = starting_after unless starting_after.nil?
-    Stripe::Customer.list(params)
-  end
-
   def flush_tracking_cache
     page_tracker_cache.flushdb
   end
 
   private
+
+  def list_customers(limit: 50, starting_after:)
+    params = {limit: limit}
+    params[:starting_after] = starting_after unless starting_after.nil?
+    Stripe::Customer.list(params)
+  end
 
   def get_starting_after
     page_tracker_cache.get('current_starting_after')
