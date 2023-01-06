@@ -1,4 +1,4 @@
-Please refer to [Design.md](https://github.com/mishaelajay/the-big-picture/blob/main/Design.md) for technical details and code run through.
+Please refer to [Design.md](https://github.com/mishaelajay/zebra-stripes/blob/main/Design.md) for technical details and code run through.
 
 # Installation
 
